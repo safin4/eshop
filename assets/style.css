@@ -109,19 +109,6 @@ h5:hover{
   width: 100%;
   opacity: 0.9;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  
-}
-
-.centered h1{
-  font-size: 50px;
-  color: blue;
-  font-weight: 700;
-}
 
 .all-products{
   background-color: rgb(36, 27, 11);
