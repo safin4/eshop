@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-Shop | Ecommerce Website Disign</title>
+        <link rel="icon" href="assets/img/favicon.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+        
+
+
+    </head>
+
+    <body>
+    <!-- Header section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img id = "logo" src="assets/img/ecommerce-logo-png-11.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                  </li>
+                
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#category-products">Category Products</a></li>
+                      <li><a class="dropdown-item" href="#latest-products">Latest Products</a></li>
+                      <li><a class="dropdown-item" href="#most-sell-products">Most Sell Products</a></li>
+                    </ul>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+               
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ms-5 me-4 mt-2"><i class="bi-heart"></i>
+                    <li class="nav-item  ms-5 me-5 mt-2"> <i class="bi-cart"></i>
+                     
+                   
+            
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ms-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="bi-person"></i>
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Login</a></li>
+                      <li><a class="dropdown-item" href="#">Register</a></li>
+                    </ul>                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Slider section -->
+    <section class="slider">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+                <div class="col-md-6 slider-text p-5">
+                    <h2 class="text-success">
+                      Order <span class="lighten">Online,</span> <br> Save your <br>
+                      <span class="lighten">Time</span>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, deleniti tempore. Facere doloremque aliquam quaerat numquam dignissimos voluptatibus.</p>
+                    <button type="button" class="btn btn-warning rounded-pill p-2">Order Now  →</button>
+                </div>
+
+                <div class="col-md-6 slider-image">
+                    <img src="assets/img/product/f1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-6 slider-text p-5">
+                  <h2 class="text-success">
+                    Order <span class="lighten">Online,</span> <br> Save your <br>
+                    <span class="lighten">Time</span>
+                  </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, deleniti tempore. Facere doloremque aliquam quaerat numquam dignissimos voluptatibus.</p>
+                    <button type="button" class="btn btn-warning rounded-pill p-2">Order Now  →</button>
+                </div>
+
+                <div class="col-md-6 slider-image">
+                    <img src="assets/img/product/f3.png" class="d-block w-100" alt="...">
+                </div>
+            </div> 
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+        </div>
+    </section>
+
+    
+  <!-- category section start -->
+    <div class="container category-products" id="category-products">
+      <h1>Category Products</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur.</p>
+    <div class="container">
+      <div class="row">
+      <div class="col-md-3 d-flex flex-column justify-content-center">
+          <div class="categories d-flex flex-column justify-content-center">
+          <img src="assets/img/product/product22.png" atl="">
+          <h3>Carrot</h3>
+          <button class="view-all">View All  →</button>
+
+          </div>
+      </div>
+
+      
+        <div class="col-md-3 d-flex flex-column justify-content-center">
+          <div class="categories d-flex flex-column justify-content-center">
+          <img src="assets/img/product/product23.png" atl="">
+          <h3>Onion</h3>
+          <button class="view-all">View All  →</button>
+          </div>
+      </div>
+
+      <div class="col-md-3 d-flex flex-column justify-content-center">
+          <div class="categories d-flex flex-column justify-content-center">
+          <img src="assets/img/product/product27.png" atl="">
+          <h3>Capsicum</h3>
+          <button class="view-all">View All  →</button>
+          </div>
+      </div>
+      <div class="col-md-3 d-flex flex-column justify-content-center">
+          <div class="categories d-flex flex-column justify-content-center">
+          <img src="assets/img/product/product28.png" atl="">
+          <h3>Broccoli</h3>
+          <button class="view-all">View All  →</button>
+          </div>
+      </div>
+      </div>
+      </div>
+  </div>
+
+  <div class="container category-product mb-3">
+        <div class="row align-items-center">
+          
+            <div class="col-md-2">
+              <p class="fruits">Fresh Fruits</p>
+                <h1>Healthy Food</h1>
+                <p>Get 20% Off Selected Product</p>
+                <button class="order-now">Order Now  →</button>
+            </div>
+            <div class="col-md-4">
+                <img src="assets/img/product/f1.png" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="col-md-2">
+              <p class="fruits">Fresh Fruits</p>
+              <h1>Fresh Vegetables</h1>
+              <p>Get 20% Off Selected Product</p>
+              <button class="order-now">Order Now  →</button>
+          </div>
+
+          <div class="col-md-4">
+              <img src="assets/img/product/f3.png" class="d-block w-100" alt="...">
+          </div>
+  </div>
+  </div>
+</div>
+
+ <!-- category section end -->
+
+  <!-- latest product section start-->
+  <div class="container all-products p-3">
+<div class="container latest-products" id="latest-products">
+  <h1>Latest Products</h1>
+<div class="container">
+  <div class="row">
+  <div class="col-md-3 d-flex flex-column justify-content-center">
+      <div class="categories d-flex flex-column justify-content-center">
+      <img src="assets/img/product/product27.png" atl="">
+      <h5>Organic Cauliflower (1kg)</h5>
+      <div class = "star mb-2">
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+       </div>
+       <h3>৳ 200.00</h3>
+       <div class="icon">
+        <button type="button" class="btn btn-outline-success rounded-pill m-2 me-5">
+          <span class="btn-label"><i class="bi-cart"></i></span> ADD TO CART</button>
+          <i class="bi-heart"></i>
+          </div>
+
+      </div>
+  </div>
+
+  
+    <div class="col-md-3 d-flex flex-column justify-content-center">
+      <div class="categories d-flex flex-column justify-content-center">
+      <img src="assets/img/product/product23.png" atl="">
+      <h5>Organic Cauliflower (1kg)</h5>
+      <div class = "star mb-2">
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+       </div>
+       <h3>৳ 200.00</h3>
+       <div class="icon">
+        <button type="button" class="btn btn-outline-success rounded-pill m-2 me-5">
+          <span class="btn-label"><i class="bi-cart"></i></span> ADD TO CART</button>
+          <i class="bi-heart"></i>
+          </div>
+      </div>
+  </div>
+
+  <div class="col-md-3 d-flex flex-column justify-content-center">
+      <div class="categories d-flex flex-column justify-content-center">
+      <img src="assets/img/product/product22.png" atl="">
+      <h5>Fresh Carrot (1 kg)</h5>
+      <div class = "star mb-2">
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+       </div>
+       <h3>৳ 200.00</h3>
+       <div class="icon">
+        <button type="button" class="btn btn-outline-success rounded-pill m-2 me-5">
+          <span class="btn-label"><i class="bi-cart"></i></span> ADD TO CART</button>
+          <i class="bi-heart"></i>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-3 d-flex flex-column justify-content-center">
+      <div class="categories d-flex flex-column justify-content-center">
+      <img src="assets/img/product/product28.png" atl="">
+      <h5>Organic Cauliflower (1kg)</h5>
+     <div class = "star mb-2">
+      <i class="bi-star-fill checked"></i>
+      <i class="bi-star-fill checked"></i>
+      <i class="bi-star-fill checked"></i>
+      <i class="bi-star-fill checked"></i>
+      <i class="bi-star-fill checked"></i>
+     </div>
+     <h3>৳ 200.00</h3>
+     <div class="icon">
+      <button type="button" class="btn btn-outline-success rounded-pill m-2 me-5">
+        <span class="btn-label"><i class="bi-cart"></i></span> ADD TO CART</button>
+        <i class="bi-heart"></i>
+        </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+ <!-- latest product section end -->
+
+ <!-- most sell products section start -->
+ 
+ <div class="container latest-products" id="most-sell-products">
+  <h1>Most Sell Products</h1>
+<div class="container">
+  <div class="row">
+  <div class="col-md-3 d-flex flex-column justify-content-center">
+      <div class="categories d-flex flex-column justify-content-center">
+      <img src="assets/img/product/product1.png" atl="">
+      <h5>Organic Cauliflower (1kg)</h5>
+      <div class = "star mb-2">
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+       </div>
+       <h3>৳ 200.00</h3>
+       <div class="icon">
+        <button type="button" class="btn btn-outline-success rounded-pill m-2 me-5">
+          <span class="btn-label"><i class="bi-cart"></i></span> ADD TO CART</button>
+          <i class="bi-heart"></i>
+          </div>
+
+      </div>
+  </div>
+
+  
+    <div class="col-md-3 d-flex flex-column justify-content-center">
+      <div class="categories d-flex flex-column justify-content-center">
+      <img src="assets/img/product/product2.png" atl="">
+      <h5>Organic Cauliflower (1kg)</h5>
+      <div class = "star mb-2">
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+       </div>
+       <h3>৳ 200.00</h3>
+       <div class="icon">
+        <button type="button" class="btn btn-outline-success rounded-pill m-2 me-5">
+          <span class="btn-label"><i class="bi-cart"></i></span> ADD TO CART</button>
+          <i class="bi-heart"></i>
+          </div>
+      </div>
+  </div>
+
+  <div class="col-md-3 d-flex flex-column justify-content-center">
+      <div class="categories d-flex flex-column justify-content-center">
+      <img src="assets/img/product/product3.png" atl="">
+      <h5>Fresh Carrot (1 kg)</h5>
+      <div class = "star mb-2">
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+        <i class="bi-star-fill checked"></i>
+       </div>
+       <h3>৳ 200.00</h3>
+       <div class="icon">
+        <button type="button" class="btn btn-outline-success rounded-pill m-2 me-5">
+          <span class="btn-label"><i class="bi-cart"></i></span> ADD TO CART</button>
+          <i class="bi-heart"></i>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-3 d-flex flex-column justify-content-center">
+      <div class="categories d-flex flex-column justify-content-center">
+      <img src="assets/img/product/product4.png" atl="">
+      <h5>Organic Cauliflower (1kg)</h5>
+     <div class = "star mb-2">
+      <i class="bi-star-fill checked"></i>
+      <i class="bi-star-fill checked"></i>
+      <i class="bi-star-fill checked"></i>
+      <i class="bi-star-fill checked"></i>
+      <i class="bi-star-fill checked"></i>
+     </div>
+     <h3>৳ 200.00</h3>
+     <div class="icon">
+      <button type="button" class="btn btn-outline-success rounded-pill m-2 me-5">
+        <span class="btn-label"><i class="bi-cart"></i></span> ADD TO CART</button>
+        <i class="bi-heart"></i>
+        </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+ <!-- most sell products section end -->
+
+
+ <div class="banner p-5">
+       
+            <img src="assets/img/banner.jpg" atl="">
+             
+              <div class="centered"> <h1>Order Online <br> Save Your <br> Time</h1></div>
+    
+</div>
+
+
+
+<div class="footer-menu">
+  <div class="row">
+  <div class="col-md-3 footer" >
+    <img id = "logo" src="assets/img/ecommerce-logo-png-11.png" alt="">
+    <p id="text">Get this App is now available on Google Play & App Store. Get it now.</p>
+    <img id = "logo" src="assets/img/store1.png" alt="">
+    <img id = "logo" src="assets/img/store2.png" alt="">
+  </div>
+
+    <div class="col-md-3">
+      <h2>Information</h2>
+      <ul>
+      <li> <a href = "#"> About us </a></li>
+      <li> <a href = "#"> Shipping Policy </a></li>
+      <li> <a href = "#"> Terms & Conditions </a></li>
+      <li> <a href = "#"> Privacy Policy </a></li>
+      <li> <a href = "#"> Contact Us </a></li>
+      </ul>
+  </div>
+
+  <div class="col-md-3">
+      <h2>User Area</h2>
+      <ul>
+      <li> <a href = "#"> My account </a></li>
+      <li> <a href = "#"> My Cart</a></li>
+      <li> <a href = "#"> Login </a></li>
+      <li> <a href = "#"> Checkout </a></li>
+      </ul>
+  </div>
+  
+  <div class="col-md-3">
+      <ul>
+        <h2>Contact Info</h2>
+        <p>01538308305</p>
+        <p>509 724 580 - issued in New York (NY) on 03/11/2019, expires 08/11/2023</p>
+        <p>support@eshop.com</p>
+      </ul>
+  </div>
+  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+  <p id="footer">Copyright © 2022. E-Learning Website. All rights reserved. Developed by Jubayer Safin</p>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
